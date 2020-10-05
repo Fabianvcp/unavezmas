@@ -57,7 +57,7 @@
                         </div>
 
                         <div class="form-group {{ $errors->has('iframe') ? 'has-error' : ''}}">
-                            <label for="iframe" >Iframe / contenido embebido <small class="text-info">remondación: modificar en el width="100%" en height="480"</small></label>
+                            <label for="iframe" >Iframe / contenido embebido <small class="text-info">recomendación: modificar en el width="100%" en height="480"</small></label>
                             <textarea rows="2" name="iframe" id="editor"  class="form-control" placeholder="Ingresa contenido Embebido (iframe) de audio o video">{{ old('iframe',$post->iframe ? $post->iframe : null) }}</textarea>
                             {!!  $errors->first('body', '<span class="help-block">:message</span>') !!}
                         </div>

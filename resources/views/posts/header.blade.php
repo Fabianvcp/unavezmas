@@ -1,7 +1,7 @@
 
 <header class="container-flex space-between">
     <div class="date">
-        <span class="c-gris">{{ optional($post->published_at)->locale('es')->translatedFormat('l d \d\e F') }}/ {{ $post->owner->name }}</span>
+        <span class="c-gris">{{ optional($post->published_at)->locale('es')->translatedFormat('l d \d\e F') }}</span>
     </div>
     @if($post->category)
         <div class="post-category">

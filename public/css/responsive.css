@@ -12,10 +12,15 @@
 	.post{
 		position: relative;
 	}
-	.post .category{
-		right: 0;
-		top: 0;
-	}
+    .post .category {
+        background: #BC1F28;
+        padding: 5px 10px;
+        color: white;
+        position: absolute;
+        right: -23px!important;
+        top: -23px!important;
+        text-transform: capitalize;
+    }
   .post h1, .post h2{
 	font-size: 28px;
 	line-height: 1.2;
